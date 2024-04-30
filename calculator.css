@@ -1,0 +1,37 @@
+button {
+   border-radius: 50%;
+   border: none;
+   color: white;
+   background-color: grey;
+   font-weight: bold;
+   cursor: pointer;
+   height: 90px;
+   width: 90px;
+   font-size: 50px;
+}
+
+#display {
+    width: 100%;
+    text-align: left;
+    border: none;
+    padding: 20px;
+    font-size: 6rem;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+#arrange{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 600px;
+    gap: 20px;
+}
+
+#calculator-body{
+    background-color: rgb(57, 57, 57);
+    width: 600px;
+    text-align: center;
+    /* padding: 20px; */
+    border-radius: 15px;
+    overflow: hidden;
+}
